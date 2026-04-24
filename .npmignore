@@ -1,0 +1,13 @@
+# 测试和开发文件
+*.test.js
+*.spec.js
+.env
+.env.*
+
+# 构建产物和依赖
+node_modules/
+
+# 编辑器配置
+.vscode/
+.idea/
+*.swp

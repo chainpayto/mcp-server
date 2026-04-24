@@ -1,0 +1,49 @@
+{
+  "name": "@chainpayto/mcp-server",
+  "version": "2.0.0",
+  "description": "ChainPay MCP Server — integrate ChainPay crypto payments into Claude, Cursor, and other AI agents via Model Context Protocol",
+  "keywords": [
+    "chainpay",
+    "mcp",
+    "model-context-protocol",
+    "crypto",
+    "payments",
+    "usdt",
+    "ai-agent",
+    "claude",
+    "cursor"
+  ],
+  "homepage": "https://chainpay.to",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chainpayto/mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chainpayto/mcp-server/issues"
+  },
+  "license": "MIT",
+  "author": "ChainPay Team <support@chainpay.to>",
+  "main": "src/server.js",
+  "bin": {
+    "chainpay-mcp": "src/server.js"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^3.24.0"
+  },
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
